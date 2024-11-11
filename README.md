@@ -3,7 +3,7 @@ Determination of single-cell growth rate and division intensity of human pluripo
 This repository contains the code used to analyze experimental and synthetic data to determine physiological state functions (PSFs) of human pluripotent stem cells.
 
 # Running the code
-Each file needs appropriate data to be run.
+The code is split into files that analyze the synthetic results and those that analyze the experimental results. With the synthetic results, the code to generate synthetic data is included as well. To analyze the experimental results, the experimental data must be downloaded as well.
 
 ## Synthetic Results
 
