@@ -18,14 +18,14 @@ The code is split into files that analyze the synthetic results and those that a
 
 ## Experimental Results
 
-The main file of interest is inverseProblem_experimental_main.m, which would generate the main figures of the paper if given the experimental data.
+The files of interest are *_func.m, which calculate the PSFs under the various experimental conditions indicated by *. inverseProblem_experimental_main.m would generate the main figures of the paper if given the experimental data.
 
 | File name | Comment |
 |-|-|
 |Experimental/inverseProblem_experimental_main.m|Uses the other functions in the Experimental folder to estimate the PSFs from each experimental condition and plot the results.|
-|Experimental/inverseProblem_experimental_H9_func.m| Analyze the experimental H9 data and compute the PSFs. |
+|Experimental/inverseProblem_experimental_H9_func.m| Analyze the experimental H9-lactate data and compute the PSFs. |
 |Experimental/inverseProblem_experimental_H9_lactate_func.m| Analyze the experimental H9+lactate data and compute the PSFs. |
-|Experimental/inverseProblem_experimental_IMR90_func.m| Analyze the experimental IMR90 data and compute the PSFs. |
+|Experimental/inverseProblem_experimental_IMR90_func.m| Analyze the experimental IMR90-lactate data and compute the PSFs. |
 |Experimental/inverseProblem_experimental_IMR90_lactate_func.m| Analyze the experimental IMR90+lactate data and compute the PSFs. |
 |Experimental/estimatePSFs.m|Helper function to calculate PSFs given the various distributions.|
 
