@@ -3,7 +3,7 @@ Determination of single-cell growth rate and division intensity of human pluripo
 This repository contains the code used to analyze experimental and synthetic data to determine physiological state functions (PSFs) of human pluripotent stem cells.
 
 # Running the code
-The code is split into files that analyze the synthetic results and those that analyze the experimental results. With the synthetic results, the code to generate synthetic data is included as well. To analyze the experimental results, the experimental data must be downloaded as well.
+The code is split into files that analyze the synthetic results and those that analyze the experimental results. With the synthetic results, the code to generate synthetic data is included as well. The experimental data is not included in this repository, but the code related to experiments is provided as an example of the analysis.
 
 ## Synthetic Results
 
@@ -18,11 +18,11 @@ The code is split into files that analyze the synthetic results and those that a
 
 ## Experimental Results
 
-The main file of interest is inverseProblem_experimental_main.m, which will generate the main figures of the paper. The experimental data needs to be in the same directory.
+The main file of interest is inverseProblem_experimental_main.m, which would generate the main figures of the paper if given the experimental data.
 
 | File name | Comment |
 |-|-|
-|Experimental/inverseProblem_experimental_main.m|Uses the other functions in the Experimental folder to estimate the PSFs from each experimental condition.|
+|Experimental/inverseProblem_experimental_main.m|Uses the other functions in the Experimental folder to estimate the PSFs from each experimental condition and plot the results.|
 |Experimental/inverseProblem_experimental_H9_func.m| Analyze the experimental H9 data and compute the PSFs. |
 |Experimental/inverseProblem_experimental_H9_lactate_func.m| Analyze the experimental H9+lactate data and compute the PSFs. |
 |Experimental/inverseProblem_experimental_IMR90_func.m| Analyze the experimental IMR90 data and compute the PSFs. |
