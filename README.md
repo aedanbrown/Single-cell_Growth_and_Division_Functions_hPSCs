@@ -1,4 +1,4 @@
-Determination of single-cell growth rate and division intensity of human pluripotent stem cells
+Quantifying human pluripotent stem cell attributes with population balance modeling
 ==================================================
 This repository contains the code used to analyze experimental and synthetic data to determine physiological state functions (PSFs) of human pluripotent stem cells.
 
